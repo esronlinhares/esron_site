@@ -1,0 +1,32 @@
+.discography {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px; /* Ajusta conforme necessário */
+    font-size: 100PX;
+    color: white;
+    font-family: "Jost", sans-serif;
+    text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 5px #E0E, 0 0 5px #E0E, 0 0 50px #E0E, 0 0 5px #E0E, 0 0 5px #E0E;
+}
+
+.albums {
+    display: flex;
+    justify-content: center; /* Centraliza os itens horizontalmente */
+    flex-wrap: wrap; /* Permite que itens se movam para a próxima linha se não couberem */
+    gap: 20px; /* Espaço entre os álbuns */
+    margin: 50px;
+}
+
+.album {
+    flex: 1; /* Faz com que cada álbum se ajuste flexivelmente ao espaço disponível */
+    max-width: 300px; /* Limita a largura máxima de cada álbum */
+    margin-inline: 10px;
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+}

@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(10, 10, 10);
+    min-height: 100vh;
+    margin: 0;
+}
+
+.title{
+    font-family: "Jost", sans-serif;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 5px #fff, 0 0 20px #fff, 0 0 5px #E0E, 0 0 5px #E0E, 0 0 50px #E0E, 0 0 5px #E0E, 0 0 5px #E0E;
+}
+
+.carousel{
+    width: 100%;
+    margin: auto;
+}
+
+.carousel-item{
+    position: relative;
+    text-align: center;
+}
+
+.carousel-image{
+    width: 600px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.video{
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente o conteúdo dentro da div */
+    align-items: center; /* Opcional, se você também quer alinhar verticalmente e a div tem altura suficiente */
+    width: 100%; /* Garante que a div ocupe a largura total do contêiner pai */
+    height: 100%; /* Opcional, se você quer que a div ocupe toda a altura do contêiner pai */
+    margin: 30px;
+}
+
+.video iframe {
+    width: 80vw;  /* Largura do vídeo será 80% da largura da viewport */
+    height: 45vw; /* Altura do vídeo será proporcional, 45% da largura da viewport */
+    max-width: 1000px;  /* Limite máximo para a largura */
+    max-height: 563px;  /* Limite máximo para a altura, mantendo proporção 16:9 */
+}
+
+.footer{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 30px;
+}

@@ -1,0 +1,10 @@
+.nav-icon {
+    width: 30px;
+    height: 30px;
+    transition: filter 0.5s ease;
+    margin-inline: 5px;
+}
+
+.nav-icon:hover {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(100%) saturate(2000%) hue-rotate(330deg) brightness(100%) contrast(100%);
+}
