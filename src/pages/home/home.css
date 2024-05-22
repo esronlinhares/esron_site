@@ -5,6 +5,7 @@ body{
 }
 
 .title{
+    margin-top: 100px;
     font-family: "Jost", sans-serif;
     font-size: 100px;
     text-align: center;

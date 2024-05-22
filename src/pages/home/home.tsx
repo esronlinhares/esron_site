@@ -1,6 +1,6 @@
+import React from 'react'
 import './home.css'
-
-//testando
+import NavBar from '../../components/navbar/navbar';
 
 function Home() {
     return (
